@@ -1,0 +1,215 @@
+body{
+    padding: 0;
+    margin: 0;
+    font-family: "Helvetica Neue",
+     Helvetica, "PingFangSC-Light", "Hiragino Sans GB", 
+     "Heiti SC","microsoft yahei ui", "Microsoft YaHei", 
+     "WenQuanYi Micro Hei","Segoe UI", Arial, sans-serif;
+}
+body a{
+    text-decoration: none
+}
+.b,.r a:hover{
+    text-decoration: underline
+}
+.b h2 a{
+    text-decoration: none;
+}
+.all{
+    width: 910px;
+    margin: 0 auto;
+}
+.header{
+    overflow: hidden;
+}
+.logo{
+    float: left;
+    height: 217px;
+    height:63px;
+    display: inline;
+    background: url(../images/logo.gif)
+}
+.logo h1{
+    width: 217px;
+}
+.logo a{
+    display: block;
+    height:63px;
+    text-indent: -9999px;
+}
+.tex{
+    float: right;
+}
+.p1{
+    font-weight: bold;
+    font-size: 14px;
+    margin:10px 0;
+}
+.p2{
+    /* font-weight: bold; */
+    font-size: 12px;
+    color:rgb(53, 51, 51);
+    margin:0 0;
+}
+.nav ul{
+    padding: 0 40px;
+    height:36px;
+    list-style: none;
+    background: url(../images/navbg.gif) no-repeat;
+}
+.nav li{
+    display: inline;
+    margin-right: 20px;
+}
+.nav a{
+    line-height:30px;
+    display:inline-block;
+    color: #fff;
+    height: 32px;
+    min-width: 88px;
+    text-align: center;
+}
+.le{
+    float: right;
+}
+.active{
+    background: url(../images/home.gif) no-repeat;
+    margin-top: 4px;
+    color: #000 !important;
+}
+.t{
+    height: 210px;
+}
+.banner{
+    width: 600px;
+    display: inline;
+    float: left
+}
+.tex1{
+    float: right;
+    display: inline;
+    width: 280px;
+}
+.tex1 h2{
+    font-size: 14px;
+    border-bottom: 1px solid #53a7d8;
+    margin-top: 0px;
+    padding-bottom: 5px;
+    margin-bottom: 2.8px;
+}
+.tex1 ul{
+  padding-left: 18px;
+  margin-bottom: 0px;
+}
+.tex1 a{
+    color: #0e6fb6;
+    font-size: 12px;
+    line-height: 24px;
+}
+.b{
+    margin-top: 10px;
+    width: 910px;
+    overflow: hidden;
+}
+.l{
+    width: 600px;
+   float:left;
+}
+.l ul{
+    padding-left: 0;
+    list-style: none;
+}
+.l li{
+    height: 50px;
+    padding-left: 40px;
+  
+   margin-bottom: 15px;
+}
+.l a{
+    color: #045896;
+    font-weight: bold;
+    text-decoration: underline
+}
+.l h2{
+    border-bottom:  1px solid #53a7d8;
+    color: #045896;
+    margin-top: 0px;
+    font-size: 14px;
+}
+.l span{
+    font-size: 12px;
+}
+.l p{
+    margin:3px 0 0 0;
+    font-size:14px;
+}
+.more{
+    color: #0e6fb6;
+    font-size: 12px;
+    float: right;
+}
+.download{
+    
+    font-size: 12px;
+    float: right;
+}
+.grey{
+    color: rgb(131, 128, 128);
+    margin-left: 8px;
+    font-size: 14px
+}
+.r{
+    width: 280px;
+    float: right;
+}
+.r ul{
+    list-style: none;
+    padding-left: 0;
+}
+.r li{
+    padding-left: 20px;
+    margin-bottom: 15px;
+}
+.l1{background: url(../images/icon_1.gif) no-repeat}
+.l2{background: url(../images/icon_2.gif) no-repeat}
+.l3{background: url(../images/icon_3.gif) no-repeat}
+.l4{background: url(../images/icon_4.gif) no-repeat}
+.l5{background: url(../images/icon_5.gif) no-repeat}
+.l6{background: url(../images/icon_6.gif) no-repeat}
+.r1{background: url(../images/soft_r_1.gif) no-repeat}
+.r2{background: url(../images/soft_r_2.gif) no-repeat}
+.r3{background: url(../images/soft_r_3.gif) no-repeat}
+.r4{background: url(../images/soft_r_4.gif) no-repeat}
+.r5{background: url(../images/soft_r_5.gif) no-repeat}
+.r6{background: url(../images/soft_r_6.gif) no-repeat}
+.download{
+    background: url(../images/downicon.gif) no-repeat;
+    padding-left: 12px;
+}
+.r h2{
+        border-bottom:  1px solid #53a7d8;
+        color: #045896;
+        margin-top: 0px;
+        font-size: 14px;
+    }
+.r a{
+    color: #045896;
+    /* font-weight: bold; */
+    text-decoration:none;
+    font-size: 12px;
+}
+.friends {
+    font-size: 12px;
+    color: #045896
+}
+.footer{
+    color: rgb(143, 142, 142);
+    font-weight: 200;
+    width: 910px;
+    display: block;
+    background: rgb(240, 239, 239);
+    border-top:1px solid rgb(190, 190, 190);
+    text-align: center;
+    font-size:12px;
+    padding: 10px 0
+}
